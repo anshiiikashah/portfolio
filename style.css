@@ -309,3 +309,61 @@ body {
     align-items: center;
     gap:4vh;
 }
+
+@media screen and (max-width: 600px) {
+    #sections{
+        display: flex;
+        flex-direction: column;
+        gap: 10vh;
+    }
+    #navName{
+        flex-direction: column;
+        gap: 2vh;
+        font-size: 80%;
+        width: 100vw;
+    }
+    #nav ul{
+        gap: 2vh;
+        text-align: center;
+    }
+    #introduction{
+        flex-direction: column;
+        gap: 2vh;
+        animation: none;
+        align-items: center;
+        padding-top: 10vh;
+    }
+    #img{
+        width: 84vw;
+        height: 84vw;
+    }
+    #text{
+        width: 88vw;
+        height: 100vw;
+    }
+
+    #projects{
+        margin-top: 25vh;
+        padding: 2vh;
+    }
+    #boxes{
+        flex-direction: column;
+    }
+    #projectHeading{
+        width: 84vw;
+    }
+    #contact{
+        flex-direction: column;
+        padding: 2vh;
+        gap: 4vh;
+    }
+    #contactSection{
+        width: 84vw;
+    }
+    #scrollToTop{
+        margin-left: 80vw;
+    }
+    .box{
+        height: max-content;
+    }
+}
